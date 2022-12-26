@@ -1,0 +1,4 @@
+чтобы запустить на винде, если PATH установлен:
+uvicorn crm_app.main:app --reload
+если не установлен:
+python -m uvicorn crm_app.main:app --reload
